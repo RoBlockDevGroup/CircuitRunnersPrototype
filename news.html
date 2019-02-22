@@ -1,37 +1,82 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="js/all.js"></script>
+    <link href="css/animations.css" rel="stylesheet">
+    <title>News | CircuitRunners</title>
+    <link rel="shortcut icon" href="img/logo-modern.png">
+</head>
+<div class="wrapper">
+    <div class="navigation">
+        <nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo-modern.png" height=30px>
+                <span class="special"><b>Circuit</b></span><span>Runners</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">
+                            <i class="fa fa-home"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-hover" href="teams.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-users"></i>
+                            Teams
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="frc.html">FRC</a>
+                            <a class="dropdown-item" href="ftc.html">FTC</a>
+                            <a class="dropdown-item" href="best.html">BEST</a>
+                            <a class="dropdown-item" href="grits.html">GRITS</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="outreach.html">
+                            <i class="fa fa-hand-holding-heart">
+                            </i>
+                            Outreach
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#">
+                            <i class="fa fa-newspaper">
+                            </i>
+                            News
+                            <span class="sr-only">(current)</span>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>CircuitRunners</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <nav class="navbar fixed-top navbar-inverse bg-inverse bigger bg-inverse-special" id="navbar">
-        <div class="">
-          <a class="navbar-brand" href="#">
-              <img src="img/logo-modern.png" style="width: 30px; height: 30px padding-left:2vw;" class="d-inline-block align-top" alt="">
-              <span class="special"><b style="font-weight: 500">Circuit</b></span><span style="font-weight: 300">Runners</span>
-          </a>
-          <div style="display: inline;">
-              <a class="nav-item" href="teams.html" style="padding-left: 2vw; padding-right:20px;"><i class="fas fa-users"></i> Teams</a>
-              <a class="nav-item" href="outreach.html" style="padding-left: 2vw; padding-right:20px;"><span class="far fa-heart"></span> Outreach</a>
-              <a class="nav-item" href="news.html" style="padding-left: 20px; padding-right:20px;"><span class="far fa-newspaper"></span> News</a>
-              <a class="nav-item" href="about.html" style="padding-left: 20px; padding-right:20px;"><span class="fa fa-info-circle"></span> About</a>
-              <a class="nav-item" href="C3_1.html" style="padding-left: 20px; padding-right:20px;"><i class="fa fa-trophy"></i> 3C</a>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            <i class="fa fa-info-circle">
+                            </i>
+                            About
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
-      </nav>
-      <h1 class="title">News</h1>
+        </nav>
+    </div>
+    <h1 class="title">News</h1>
       <div class="col-md-12">
-          <a class="twitter-timeline" href="https://twitter.com/circuitrunners?ref_src=twsrc%5Etfw">Tweets by circuitrunners</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a class="twitter-timeline" href="https://twitter.com/circuitrunners?ref_src=twsrc%5Etfw">Tweets by circuitrunners</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" alt="Could Not Load"></script>
       </div>
+    <footer class="page-footer font-small blue">
+      <script src="js/script.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha256-gL1ibrbVcRIHKlCO5OXOPC/lZz/gpdApgQAzskqqXp8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha256-+kIbbrvS+0dNOjhmQJzmwe/RILR/8lb/+4+PUNVW09k=" crossorigin="anonymous"></script>
+        <div class="footer-copyright text-center py-3">
+            &copy; <script type="text/JavaScript">document.write(new Date().getFullYear());</script> CircuitRunners
+        </div>
+    </footer>
+</div>

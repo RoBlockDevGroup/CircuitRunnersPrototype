@@ -1,4 +1,4 @@
-@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("fontawesome.min.css");
 .jumbotron {
   display: table;
   width: 100%;
@@ -17,6 +17,29 @@
   height:100%
 
 }
+@media (min-width: 40em) {
+  .cover-heading {
+    animation-duration: 1.5s;
+    animation-name: main-header-in;
+  }
+
+  .cover-heading .special {
+    animation-duration: 1.5s;
+    animation-name: main-header-in-span
+  }
+
+  .tagline .lead {
+    animation-duration: 1.5s;
+    animation-name: main-header-in
+  }
+}
+@media (min-width: 40em) {
+  .bg-inverse-special {
+    background-color: rgba(55, 58, 60, 0.5) !important
+  }
+  .navbar { 
+    transition: padding 0.3s, background-color 0.3s;
+  }
 .jumbo-container{
   text-align:CENTER;
 }
