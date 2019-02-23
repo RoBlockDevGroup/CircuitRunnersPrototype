@@ -1,0 +1,49 @@
+body {
+	margin-top: 59px;
+}
+.special {
+	color: #4cae4c;
+}
+#teams .card:first-child {
+  background: linear-gradient(
+      rgba(30, 30, 30, 0.87), 
+      rgba(30, 30, 30, 0.87)
+    ),
+  url('../img/FRCindex.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#teams .card:nth-child(2) {
+  background: linear-gradient(
+      rgba(30, 30, 30, 0.87), 
+      rgba(30, 30, 30, 0.87)
+    ),
+  url('../img/FTCindex.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+#teams .card:nth-child(3) {
+  background: linear-gradient(
+      rgba(30, 30, 30, 0.87), 
+      rgba(30, 30, 30, 0.87)
+    ),
+  url('../img/BESTindex.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+#teams .card:last-child {
+  background: linear-gradient(
+      rgba(30, 30, 30, 0.87), 
+      rgba(30, 30, 30, 0.87)
+    ),
+  url('../img/GRITSindex.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
